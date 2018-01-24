@@ -1,0 +1,44 @@
+.image > img {
+    width: 400px;
+    /* height: 300px; */
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.view {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
+.image > img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image > img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.image > img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+
+
+
+
+
+
+
