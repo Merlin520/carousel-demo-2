@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
 .image > img {
     width: 400px;
     /* height: 300px; */
+    transition: all 1s;
 }
 
 .image {
@@ -35,6 +46,11 @@
     left: 100%;
 }
 
+.image > img.right {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
 
 
 
